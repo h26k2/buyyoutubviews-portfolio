@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import Routes from './Routes/routes'
+import "./Styles/home.css"
 
 ReactDOM.render(
   <React.StrictMode>
