@@ -50,25 +50,25 @@ class Topbar extends React.Component{
                     
                             <li>
                                 <Link to="/">
-                                    <i class="fas fa-rss"></i>
+                                    <i className="fas fa-rss"></i>
                                 </Link>
                             </li>
 
                             <li>
                                 <Link to="/">
-                                    <i class="fab fa-twitter"></i>
+                                    <i className="fab fa-twitter"></i>
                                 </Link>
                             </li>
 
                             <li>
                                 <Link to="/">
-                                    <i class="fas fa-envelope"></i>
+                                    <i className="fas fa-envelope"></i>
                                 </Link>
                             </li>
 
                             <li>
                                 <Link to="/">
-                                    <i class="fab fa-skype"></i>
+                                    <i className="fab fa-skype"></i>
                                 </Link>
                             </li>
 
