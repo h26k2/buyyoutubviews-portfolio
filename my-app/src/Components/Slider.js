@@ -2,6 +2,9 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 
+import pic1 from '../Images/Slider1.jpg'
+
+
 class Slider extends React.Component{
 
     render(){
@@ -13,8 +16,10 @@ class Slider extends React.Component{
                 </ul>
 
                 <div className="carousel-inner">
-                    <div className="carousel-item active">
-                        <img src="https://images.pexels.com/photos/3007347/pexels-photo-3007347.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" />
+                    <div className="carousel-item active" style={{backgroundImage : `url('${pic1}')`}}>
+                        <div className="carousel-caption">
+                            <Link to="/" className="btn">get started</Link>
+                        </div>
                     </div>
                 </div>
 
