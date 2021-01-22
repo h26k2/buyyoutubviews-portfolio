@@ -8,7 +8,7 @@ class Heroyt extends React.Component{
                 <div className="container">
                     <div className="row" style={{marginBottom:'3em'}}>
                         <div className="col-6">
-                            <img src={heroImg} alt="youtube section hero image"/>
+                            <img src={heroImg} alt="youtube section hero "/>
                         </div>
                         <div className="col-6">
                             <h4>leading</h4>

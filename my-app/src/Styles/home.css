@@ -270,3 +270,44 @@ body{
 .heroyt img{
     margin-top:3em;
 }
+
+/*why us*/
+
+.whyus{
+    text-align: center;
+    padding-top:3em;
+    padding-bottom:3em;
+}
+
+.whyus h4 , .whyus h2{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.whyus h4{
+    color:#00538f;
+}
+.whyus h2 span{
+    color:#00e7a3;
+}
+
+.whyus .my-heading::after{
+    background:#ffcca8;
+}
+
+.whyus .card-1{
+    text-transform: capitalize;
+    padding:2.5em 1em;
+    height:90%;
+   
+}
+
+.whyus .card-1 h5{
+    font-size:24px;
+    margin-bottom:1em;
+    font-weight: 700;
+}
+
+.whyus .card-1 p{
+    font-size:12px;
+}
