@@ -57,7 +57,7 @@ body{
 }
 
 .card-1{
-    border-radius: 5px;
+    border-radius: 20px;
     text-align: center;
     padding-top:2em;
     padding-bottom:2em;
@@ -68,6 +68,12 @@ body{
 
 .card-1 i{
     margin-bottom:0.25em;
+}
+
+.heroyt .card-1{
+    background:#fff;
+    color:#ff3728;
+    box-shadow:0px 4px 15px rgba(0,0,0,0.07);
 }
 
 
@@ -229,4 +235,38 @@ body{
 .intro h3{
     text-transform: uppercase;
     font-weight:600;
+}
+
+
+/*hero youtube*/
+
+.heroyt {
+    background:linear-gradient(120deg,#f57269,#ff4438);
+    color:#fff;
+    padding-top:4em;
+    padding-bottom:4em;
+}
+
+.heroyt h4 , .heroyt h2{
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.heroyt .my-heading::after{
+    right: auto;
+    left:0%;
+    background:#eee
+}
+
+.heroyt h4{
+    color:#005966;
+}
+
+.heroyt p{
+    line-height:2.5em;
+    font-size:14px
+}
+
+.heroyt img{
+    margin-top:3em;
 }

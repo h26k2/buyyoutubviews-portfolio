@@ -1,17 +1,18 @@
 import React from 'react'
+import heroImg from '../Images/youtube-hero-image.png'
 
 class Heroyt extends React.Component{
     render(){
         return(
             <div className="container-fluid heroyt">
                 <div className="container">
-                    <div className="row">
+                    <div className="row" style={{marginBottom:'3em'}}>
                         <div className="col-6">
-
+                            <img src={heroImg} alt="youtube section hero image"/>
                         </div>
                         <div className="col-6">
-                            <h3>leading</h3>
-                            <h1>youtube packs</h1>
+                            <h4>leading</h4>
+                            <h2 className="my-heading">youtube packs</h2>
                             <p>Being the leader in the world of attracting views and followers for
                                 social media channel, buyyoutubeviews can help you beyond your
                                 expectation. By trusting us, you may not be disappointed ever.
@@ -28,73 +29,73 @@ class Heroyt extends React.Component{
 
                     </div>
 
-                    <div className="row">
+                    <div className="row ">
                         
-                        <div className="col-2">
-                            <div className="card-v2">
+                        <div className="col-12 col-md-4 col-lg-3">
+                            <div className="card-1">
                                 <i className="fab fa-youtube fa-4x"></i>
                                 <p>youtube views</p>
                             </div>
                         </div>
 
-                        <div className="col-2">
-                            <div className="card-v2">
+                        <div className="col-12 col-md-4 col-lg-3">
+                            <div className="card-1">
                                 <i className="far fa-star fa-4x"></i>
                                 <p>Special Packs</p>
                             </div>
                         </div>
 
-                        <div className="col-2">
-                            <div className="card-v2">
+                        <div className="col-12 col-md-4 col-lg-3">
+                            <div className="card-1">
                                 <i className="fab fa-youtube fa-4x"></i>
                                 <p>Youtube Subscribers</p>
                             </div>
                         </div>
 
-                        <div className="col-2">
-                            <div className="card-v2">
+                        <div className="col-12 col-md-4 col-lg-3">
+                            <div className="card-1">
                                 <i className="far fa-thumbs-up fa-4x"></i>
                                 <p>Youtube Likes</p>
                             </div>
                         </div>
 
-                        <div className="col-2">
-                            <div className="card-v2">
+                        <div className="col-12 col-md-4 col-lg-3">
+                            <div className="card-1">
                                 <i className="fab fa-youtube fa-4x"></i>
                                 <p>Youtube Comments</p>
                             </div>
                         </div>
 
-                        <div className="col-2">
-                            <div className="card-v2">
+                        <div className="col-12 col-md-4 col-lg-3">
+                            <div className="card-1">
                                 <i className="fab fa-youtube fa-4x"></i>
                                 <p>High Retention Views</p>
                             </div>
                         </div>
 
-                        <div className="col-2">
-                            <div className="card-v2">
+                        <div className="col-12 col-md-4 col-lg-3">
+                            <div className="card-1">
                                 <i className="fas fa-globe-americas fa-4x"></i>
                                 <p>Country Targeted Views</p>
                             </div>
                         </div>
 
-                        <div className="col-2">
-                            <div className="card-v2">
+                        <div className="col-12 col-md-4 col-lg-3">
+                            <div className="card-1">
                                 <i className="fab fa-youtube fa-4x"></i>
                                 <p>USA High Retention</p>
                             </div>
                         </div>
 
-                        <div className="col-2">
-                            <div className="card-v2">
+                        <div className="col-12 col-md-4 col-lg-3">
+                            <div className="card-1">
                                 <i className="fab fa-youtube fa-4x"></i>
                                 <p>UK High Retention</p>
                             </div>
                         </div>
 
-                        <div className="col-2">
-                            <div className="card-v2">
+                        <div className="col-12 col-md-4 col-lg-3">
+                            <div className="card-1">
                                 <i className="fab fa-youtube fa-4x"></i>
                                 <p>Youtube Speed Packs</p>
                             </div>
