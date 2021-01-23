@@ -10,6 +10,7 @@ import Footer from '../Components/Footer'
 import Refund from '../Screens/Refund'
 import Privacy from '../Screens/Privacy'
 import Terms from '../Screens/Terms'
+import ShopifyFollowers from '../Screens/ShopifyFollowers'
 
 
 class Routes extends React.Component{
@@ -25,6 +26,10 @@ class Routes extends React.Component{
                     <Route path="/refunds" component={Refund}/>
                     <Route path="/privacy" component={Privacy} />
                     <Route path="/terms" component={Terms} />
+                    
+
+                    <Route path="/shopify-followers" component={ShopifyFollowers}/>
+
                 </Switch>
                 <Footer/>
             </Router>

@@ -28,6 +28,10 @@ body{
     font-family: 'Montserrat',Arial, Helvetica, sans-serif;
 }
 
+.pd44{
+    padding-top:4em;
+    padding-bottom:2em;
+}
 
 .btn{
     display:inline-block;
@@ -561,7 +565,7 @@ footer > span{
 /*pricing card*/
 
 .pricing-card{
-    margin-top:2em;
+    margin-top:0em;
     margin-bottom:2em;
     padding:3em 3em;
     text-align: center;
@@ -658,3 +662,4 @@ footer > span{
 .owl-nav.disabled , .owl-dots.disabled{
     display:block!important;
 }
+

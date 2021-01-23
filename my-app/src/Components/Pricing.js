@@ -1,9 +1,9 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-
+/*
 let data = [
     {
-    title : 'package 1',price : '400.00',
+    title : 'package 1',price : '400.00', type : 'yotube'
     lists : [
         '100,000 views',
         'real ads non drop views',
@@ -12,7 +12,7 @@ let data = [
         url : 'https://panel.buyyoutubviews.com/signup?cmd=_xclick&business=&currency_code=USD&item_name=5000+Spotify+Followers&amount=35&lc=US&on0=Spotify+Url%3A&submit=Buy+Now&os0='
     },
     {
-        title : 'package 2',price : '400.00',
+        title : 'package 2',price : '400.00',type : 'yotube',
         lists : [
             '100,000 views',
             'real ads non drop views',
@@ -21,7 +21,7 @@ let data = [
             url : 'https://panel.buyyoutubviews.com/signup?cmd=_xclick&business=&currency_code=USD&item_name=5000+Spotify+Followers&amount=35&lc=US&on0=Spotify+Url%3A&submit=Buy+Now&os0='
     },
     {
-        title : 'package 3',price : '400.00',
+        title : 'package 3',price : '400.00',type : 'yotube',
         lists : [
             '100,000 views',
             'real ads non drop views',
@@ -31,7 +31,7 @@ let data = [
     }
 ]
 
-
+*/
 class Pricing extends React.Component{
 
 
@@ -45,8 +45,7 @@ class Pricing extends React.Component{
    
     render(){
 
-
-        console.log(data);
+        let {data}  = this.props;
 
         let outer_iteration , inner_iteration = 0;
 
@@ -54,7 +53,7 @@ class Pricing extends React.Component{
 
         for(let i=0 ; i<data.length ; i++){
 
-            let {title , price , lists , url} = data[i];
+            let {title , price , lists , url , type} = data[i];
             
             let li = [];
             for(let j=0 ; j<lists.length ; j++){
@@ -69,9 +68,9 @@ class Pricing extends React.Component{
                         <ul>
                             {li}
                         </ul>
-                        <p>youtube <span>url</span></p>
+                        <p>{type} <span>url</span></p>
                         <input type="url" onChange={this.handleChange} />
-                        <Link to={url}>BUY</Link>
+                        <a href={url}>BUY</a>
                     </div>
                 </div>
             )
@@ -109,6 +108,11 @@ class Pricing extends React.Component{
                         
 
 
+                    </div>
+                    <div className="row">
+                        <div className="col-12">
+                            <p style={{textAlign : 'center',marginTop:'1em'}}><i>* Order will start within 24-48 hours of payment. Please read <Link to="/faq" style={{textDecoration:'underline'}}>FAQ</Link> and <Link to="/refunds" style={{textDecoration:'underline'}}>Refund Policy</Link> before you order.</i></p>
+                        </div>
                     </div>
                 </div>
             </div>
