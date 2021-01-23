@@ -168,6 +168,20 @@ body{
     color:#555454
 }
 
+
+.navbar .dropdown-item{
+    font-family: 'Open sans',Arial, Helvetica, sans-serif;
+    padding-top:1em;
+    padding-bottom:1em;
+    font-weight: 500;
+    text-transform: uppercase;
+    color:#545454;
+    font-size:12px;
+    font-weight: 600;
+}
+
+
+
 .navbar .nav-link.active{
     border-bottom:2px solid #ff3728;
 }

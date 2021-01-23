@@ -25,9 +25,17 @@ class Nav extends React.Component{
                             <div className="dropdown-menu">
                                 <Link to ="/" className="dropdown-item">buy youtube views</Link>
                                 <Link to ="/" className="dropdown-item">youtube views and likes</Link>
+                                <Link to ="/" className="dropdown-item">buy youtube likes</Link>
                                 <Link to ="/" className="dropdown-item">buy youtube subscribers</Link>
                                 <Link to ="/" className="dropdown-item">buy youtube comments</Link>
                                 <Link to ="/" className="dropdown-item">high retention views</Link>
+                                <Link to ="/" className="dropdown-item">country targeted views</Link>
+                                <Link to ="/" className="dropdown-item">youtube live stream views</Link>
+                                <Link to ="/" className="dropdown-item">youtube views & subscribers</Link>
+                                <Link to ="/" className="dropdown-item">youtube views, likes & comments</Link>
+                                <Link to ="/" className="dropdown-item">youtube views, likes & comments</Link>
+                                <Link to ="/" className="dropdown-item">youtube views, likes & subscribers</Link>
+                                <Link to ="/" className="dropdown-item">buy youtube premium views</Link>
                             </div>
                         </li>
 
