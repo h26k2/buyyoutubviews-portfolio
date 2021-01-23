@@ -25,7 +25,7 @@ class Topbar extends React.Component{
                             </li>
 
                             <li>
-                                <Link to="/">FAQ</Link>
+                                <Link to="/faq">FAQ</Link>
                             </li>
 
                             <li>

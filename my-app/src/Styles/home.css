@@ -78,6 +78,28 @@ body{
 }
 
 
+.dh4 , .dh2{
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+.dh4{
+    color:#00538f
+}
+
+.dh2{
+    color:#545454
+}
+
+.my-red{
+    color : #ff3728;
+}
+
+
+
+
 /*top bar*/
 
 .topbar{
@@ -479,4 +501,20 @@ footer > span{
         text-align: left;;
     }
 
+}
+
+/*faq page*/
+
+.faq #accordion{
+    margin-bottom:2em;
+}
+
+.faq #accordion .card{
+    margin-top:1em;
+    margin-bottom:1em;
+}
+
+.faq #accordion .card .card-header{
+    font-weight: 600;
+   
 }
