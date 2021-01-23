@@ -11,7 +11,7 @@ import Refund from '../Screens/Refund'
 import Privacy from '../Screens/Privacy'
 import Terms from '../Screens/Terms'
 import ShopifyFollowers from '../Screens/ShopifyFollowers'
-
+import ShopifyPlays from '../Screens/ShopifyPlays'
 
 class Routes extends React.Component{
     render(){
@@ -28,7 +28,8 @@ class Routes extends React.Component{
                     <Route path="/terms" component={Terms} />
                     
 
-                    <Route path="/shopify-followers" component={ShopifyFollowers}/>
+                    <Route path="/buy-spotify-followers" component={ShopifyFollowers}/>
+                    <Route path="/buy-spotify-plays" component={ShopifyPlays}/>
 
                 </Switch>
                 <Footer/>

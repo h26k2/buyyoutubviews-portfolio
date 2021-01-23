@@ -3,7 +3,7 @@ import Pricing from '../Components/Pricing'
 
 let data = [
     {
-        title : 'package 1',price : '8.00', type : 'shopify',
+        title : 'package 1',price : '8.00', type : 'spotify',
         lists : [
             '1,000 followers',
             'Delivery Time After Order Starts'
@@ -11,7 +11,7 @@ let data = [
             url : 'https://panel.buyyoutubviews.com/signup?cmd=_xclick&business=&currency_code=USD&item_name=1000+Spotify+Followers&amount=8&lc=US&on0=Spotify+Url%3A&submit=Buy+Now&os0='
     },
     {
-        title : 'package 2',price : '15.00', type : 'shopify',
+        title : 'package 2',price : '15.00', type : 'spotify',
         lists : [
             '2,000  followers',
             'Delivery Time After Order Starts'
@@ -19,7 +19,7 @@ let data = [
             url : 'https://panel.buyyoutubviews.com/signup?cmd=_xclick&business=&currency_code=USD&item_name=2000+Spotify+Followers&amount=15&lc=US&on0=Spotify+Url%3A&submit=Buy+Now&os0='
     },
     {
-        title : 'package 3',price : '23.00', type : 'shopify',
+        title : 'package 3',price : '23.00', type : 'spotify',
         lists : [
             '3,000 followers',
             'Delivery Time After Order Starts'
@@ -27,7 +27,7 @@ let data = [
             url : 'https://panel.buyyoutubviews.com/signup?cmd=_xclick&business=&currency_code=USD&item_name=3000+Spotify+Followers&amount=23&lc=US&on0=Spotify+Url%3A&submit=Buy+Now&os0='
     },
     {
-        title : 'package 4',price : '35.00', type : 'shopify',
+        title : 'package 4',price : '35.00', type : 'spotify',
         lists : [
             '5,000 followers',
             'Delivery Time After Order Starts'
@@ -35,7 +35,7 @@ let data = [
             url : 'https://panel.buyyoutubviews.com/signup?cmd=_xclick&business=&currency_code=USD&item_name=5000+Spotify+Followers&amount=35&lc=US&on0=Spotify+Url%3A&submit=Buy+Now&os0='
     },
     {
-        title : 'package 5',price : '70.00', type : 'shopify',
+        title : 'package 5',price : '70.00', type : 'spotify',
         lists : [
             '10,000 followers',
             'Delivery Time After Order Starts'
@@ -46,7 +46,7 @@ let data = [
 
 let data1 = [
     {
-        title : 'package 1',price : '100.00', type : 'shopify',
+        title : 'package 1',price : '100.00', type : 'spotify',
         lists : [
             '15,000  followers',
             'Delivery Time After Order Starts'
@@ -54,7 +54,7 @@ let data1 = [
             url : 'https://panel.buyyoutubviews.com/signup?cmd=_xclick&business=&currency_code=USD&item_name=15000+Spotify+Followers&amount=100&lc=US&on0=Spotify+Url%3A&submit=Buy+Now&os0='
     },
     {
-        title : 'package 2',price : '120.00', type : 'shopfiy',
+        title : 'package 2',price : '120.00', type : 'spotify',
         lists : [
             '20,000   followers',
             'Delivery Time After Order Starts'
@@ -62,7 +62,7 @@ let data1 = [
             url : 'https://panel.buyyoutubviews.com/signup?cmd=_xclick&business=&currency_code=USD&item_name=20000+Spotify+Followers&amount=120&lc=US&on0=Spotify+Url%3A&submit=Buy+Now&os0='
     },
     {
-        title : 'package 3',price : '230.00', type : 'shopfiy',
+        title : 'package 3',price : '230.00', type : 'spotify',
         lists : [
             '50,000  followers',
             'Delivery Time After Order Starts'
@@ -70,7 +70,7 @@ let data1 = [
             url : 'https://panel.buyyoutubviews.com/signup?cmd=_xclick&business=&currency_code=USD&item_name=50000+Spotify+Followers&amount=230&lc=US&on0=Spotify+Url%3A&submit=Buy+Now&os0='
     },
     {
-        title : 'package 4',price : '400.00', type : 'shopfiy',
+        title : 'package 4',price : '400.00', type : 'spotify',
         lists : [
             '100,000  followers',
             'Delivery Time After Order Starts'
