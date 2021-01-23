@@ -4,6 +4,7 @@ import Heroyt from '../Components/Heroyt'
 import Intro from '../Components/Intro'
 import Slider from '../Components/Slider'
 import WhyUs from '../Components/WhyUs'
+import Testimonial from '../Components/Testimonial'
 
 class Home extends React.Component{
     render(){
@@ -13,6 +14,7 @@ class Home extends React.Component{
                 <Intro/>
                 <Heroyt/>
                 <WhyUs/>
+                <Testimonial />
                 <Footer/>
             </div>
         )

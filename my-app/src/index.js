@@ -4,9 +4,7 @@ import Routes from './Routes/routes'
 import "./Styles/home.css"
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Routes />
-  </React.StrictMode>,
+    <Routes />,
   document.getElementById('root')
 );
 

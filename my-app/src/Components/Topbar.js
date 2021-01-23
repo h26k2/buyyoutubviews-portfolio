@@ -1,6 +1,7 @@
 
 import React from 'react'
 import {Link} from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link';
 
 class Topbar extends React.Component{
     render(){
@@ -12,15 +13,15 @@ class Topbar extends React.Component{
                         <ul>
                         
                             <li>
-                                <Link to="/">About</Link>
+                                <HashLink to="/#intro-container">About</HashLink>
                             </li>
 
                             <li>
-                                <Link to="/">Testimonial</Link>
+                                <HashLink to="/#testimonials">Testimonial</HashLink>
                             </li>
 
                             <li>
-                                <Link to="/">Contact</Link>
+                                <HashLink to="/#contact">Contact</HashLink>
                             </li>
 
                             <li>

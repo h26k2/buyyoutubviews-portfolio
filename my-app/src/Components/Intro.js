@@ -3,7 +3,7 @@ import React from 'react'
 class Intro extends React.Component{
     render(){
         return(
-            <div className="intro container">
+            <div className="intro container" id="intro-container">
                 <div className="row">
                     <div className="col-12">
                         <h4>do you want to </h4>

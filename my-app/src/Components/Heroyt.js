@@ -7,10 +7,10 @@ class Heroyt extends React.Component{
             <div className="container-fluid heroyt">
                 <div className="container">
                     <div className="row" style={{marginBottom:'3em'}}>
-                        <div className="col-6">
+                        <div className="col-12 col-md-6">
                             <img src={heroImg} alt="youtube section hero "/>
                         </div>
-                        <div className="col-6">
+                        <div className="col-12 col-md-6">
                             <h4>leading</h4>
                             <h2 className="my-heading">youtube packs</h2>
                             <p>Being the leader in the world of attracting views and followers for
