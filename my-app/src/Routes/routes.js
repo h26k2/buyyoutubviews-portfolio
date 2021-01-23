@@ -12,6 +12,8 @@ import Privacy from '../Screens/Privacy'
 import Terms from '../Screens/Terms'
 import ShopifyFollowers from '../Screens/ShopifyFollowers'
 import ShopifyPlays from '../Screens/ShopifyPlays'
+import SoundcloudPlays from '../Screens/SoundcloudPlays'
+import SoundcloudFollowers from '../Screens/SoundcloudFollowers'
 
 class Routes extends React.Component{
     render(){
@@ -30,6 +32,9 @@ class Routes extends React.Component{
 
                     <Route path="/buy-spotify-followers" component={ShopifyFollowers}/>
                     <Route path="/buy-spotify-plays" component={ShopifyPlays}/>
+
+                    <Route path="/soundcloud-plays" component={SoundcloudPlays} />
+                    <Route path="/soundcloud-followers" component={SoundcloudFollowers}/>
 
                 </Switch>
                 <Footer/>
