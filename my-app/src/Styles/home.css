@@ -97,7 +97,9 @@ body{
     color : #ff3728;
 }
 
-
+.pd-btm{
+    padding-bottom:4em;
+}
 
 
 /*top bar*/
@@ -500,6 +502,9 @@ footer > span{
     #testimonial .carousel-caption p{
         text-align: left;;
     }
+    #testimonial .carousel-inner{
+        height:900px
+    }
 
 }
 
@@ -518,3 +523,15 @@ footer > span{
     font-weight: 600;
    
 }
+
+/*refund policy*/
+
+
+.refund  .card-1{
+    padding:2.5em 2em;
+}
+
+.refund  .card-1 p{
+    font-size:12px;
+}
+

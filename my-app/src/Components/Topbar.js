@@ -29,7 +29,7 @@ class Topbar extends React.Component{
                             </li>
 
                             <li>
-                                <Link to="/">Refund Policy</Link>
+                                <Link to="/refunds">Refund Policy</Link>
                             </li>
 
                             <li>
