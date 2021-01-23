@@ -16,6 +16,11 @@ import SoundcloudPlays from '../Screens/SoundcloudPlays'
 import SoundcloudFollowers from '../Screens/SoundcloudFollowers'
 import TwitterFollowers from '../Screens/TwitterFollowers'
 import TwitterViews from '../Screens/TwitterViews'
+import FacebookLikes from '../Screens/FacebookLikes'
+import FacebookFollowers from '../Screens/FacebookFollowers'
+import FacebookPhotoLikes from '../Screens/FacebookPhotoLikes'
+import FacebookViews from '../Screens/FacebookViews'
+import FacebookComments from '../Screens/FacebookComments'
 
 class Routes extends React.Component{
     render(){
@@ -40,6 +45,14 @@ class Routes extends React.Component{
 
                     <Route path="/twitter-followers" component={TwitterFollowers}/>
                     <Route path="/twitter-views" component={TwitterViews}/>
+
+                    <Route path="/facebook-likes" component={FacebookLikes}/>
+                    <Route path="/facebook-followers" component={FacebookFollowers}/>
+                    <Route path="/facebook-post-photo" component={FacebookPhotoLikes}/>
+                    <Route path="/buy-facebook-video-views" component={FacebookViews}/>
+                    <Route path="/buy-facebook-comments" component={FacebookComments}/>
+
+
 
                 </Switch>
                 <Footer/>
