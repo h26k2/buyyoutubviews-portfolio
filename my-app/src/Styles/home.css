@@ -181,7 +181,6 @@ body{
 }
 
 
-
 .navbar .nav-link.active{
     border-bottom:2px solid #ff3728;
 }
@@ -556,4 +555,78 @@ footer > span{
 
 .faq #accordion .card .card-header ,  #accordion1 .card .card-header , #accordion2 .card .card-header{
     font-weight: 600;
+}
+
+/*pricing card*/
+
+.pricing-card{
+    margin-top:1em;
+    margin-bottom:1em;
+    padding:3em 3em;
+    text-align: center;
+    color:#fff;
+    background : #ff9b00;
+    border-radius: 10px;
+}
+
+.pricing-card h5{
+    text-transform: uppercase;
+    color:rgba(255,255,255,0.8);
+    font-size:12px;
+    margin-top:1em;
+}
+
+.pricing-card h4{
+    margin-top:0.5em;
+    margin-bottom:0.5em;
+    font-size:36px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.pricing-card h4 .usd{
+    font-size:22px!important;
+    position: relative;
+    top:-20px;
+    color:rgba(255,255,255,0.8);
+    font-weight: 300;
+}
+
+.pricing-card ul{
+    padding-left:0!important;
+    list-style:none;
+}
+
+.pricing-card ul li{
+    border-bottom:2px solid rgba(255,255,255,0.5);
+    padding-top:1em;
+    padding-bottom:1em;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size:14px
+}
+
+.pricing-card p{
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size:14px
+}
+
+.pricing-card input{
+    border:none;
+    padding:0.5em 1em;
+    background:#fff;
+    border-radius: 5px;
+}
+
+.pricing-card button{
+    text-transform: uppercase;
+    border:2px solid #fff;
+    padding:0.5em 2em;
+    margin-top:1em;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background:transparent;
+    color:#fff;
+    border-radius: 10px;
 }
