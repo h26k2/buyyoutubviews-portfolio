@@ -13,6 +13,10 @@ class Topbar extends React.Component{
                         <ul>
                         
                             <li>
+                                <Link to="/">Home</Link>
+                            </li>
+
+                            <li>
                                 <HashLink to="/#intro-container">About</HashLink>
                             </li>
 
@@ -33,11 +37,11 @@ class Topbar extends React.Component{
                             </li>
 
                             <li>
-                                <Link to="/">Privacy Policy</Link>
+                                <Link to="/privacy">Privacy Policy</Link>
                             </li>
                         
                             <li>
-                                <Link to="/"> Term & Conditions</Link>
+                                <Link to="/terms"> Term & Conditions</Link>
                             </li>
                     
                         </ul>

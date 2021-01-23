@@ -508,21 +508,6 @@ footer > span{
 
 }
 
-/*faq page*/
-
-.faq #accordion{
-    margin-bottom:2em;
-}
-
-.faq #accordion .card{
-    margin-top:1em;
-    margin-bottom:1em;
-}
-
-.faq #accordion .card .card-header{
-    font-weight: 600;
-   
-}
 
 /*refund policy*/
 
@@ -535,3 +520,26 @@ footer > span{
     font-size:12px;
 }
 
+/*privacy policy*/
+/* faq */
+/*terms & conditions*/
+
+.terms , .faq  , .privacy-policy{
+    padding-top:4em;
+    padding-bottom:4em;
+}
+
+/*accordion */
+
+.faq #accordion , #accordion1 ,  #accordion2{
+    margin-bottom:2em;
+}
+
+.faq #accordion .card ,  #accordion1 .card ,  #accordion2 .card{
+    margin-top:1em;
+    margin-bottom:1em;
+}
+
+.faq #accordion .card .card-header ,  #accordion1 .card .card-header , #accordion2 .card .card-header{
+    font-weight: 600;
+}

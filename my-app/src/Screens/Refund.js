@@ -1,7 +1,5 @@
 import React from 'react'
-import Heroyt from '../Components/Heroyt'
-import Testimonial from '../Components/Testimonial'
-import WhyUs from '../Components/WhyUs'
+
 
 class Refund extends React.Component{
     render(){
@@ -38,9 +36,6 @@ class Refund extends React.Component{
 
                     </div>
                 </div>
-                <Heroyt/>
-                <WhyUs/>
-                <Testimonial/>
             </div>
         )
     }
