@@ -46,9 +46,9 @@ let data = [
 
 let data1 = [
     {
-        title : 'package 1',price : '600.00', type : 'twitter',
+        title : 'package 1',price : '160.00', type : 'twitter',
         lists : [
-            '160 Views',
+            '100K Twitter Views',
             'Delivery Time After Order Starts'
         ],
             url : 'https://panel.buyyoutubviews.com/signup?cmd=_xclick&business=&currency_code=USD&item_name=100K+Twitter+Views&amount=160&lc=US&on0=Twitter+Url%3A&submit=Buy+Now&os0='

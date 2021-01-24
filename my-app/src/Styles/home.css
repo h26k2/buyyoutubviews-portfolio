@@ -549,16 +549,17 @@ footer > span{
 
 /*accordion */
 
-.faq #accordion , #accordion1 ,  #accordion2{
+.faq #accordion , #accordion1 ,  #accordion2 , #insta-gain-follower-accordion{
     margin-bottom:2em;
 }
 
-.faq #accordion .card ,  #accordion1 .card ,  #accordion2 .card{
+.faq #accordion .card ,  #accordion1 .card ,  #accordion2 .card , #insta-gain-follower-accordion .card{
     margin-top:1em;
     margin-bottom:1em;
 }
 
-.faq #accordion .card .card-header ,  #accordion1 .card .card-header , #accordion2 .card .card-header{
+.faq #accordion .card .card-header ,  #accordion1 .card .card-header , #accordion2 .card .card-header,
+#insta-gain-follower-accordion .card-header{
     font-weight: 600;
 }
 
@@ -585,22 +586,29 @@ footer > span{
 }
 
 .spotify .pricing-card{
-    background : linear-gradient(120deg,#ff8112,#ff7700) 
+    background : linear-gradient(120deg,#2dba5f,#1DB954) 
 }
 
 .facebook .pricing-card{
-    background : linear-gradient(120deg,#ff8112,#ff7700) 
+    background : linear-gradient(120deg,#4279c2,rgb(44, 90, 152)) 
 }
 
 .twitter .pricing-card{
-    background : linear-gradient(120deg,#ff8112,#ff7700) 
+    background : linear-gradient(120deg,#3b98d1,#1DA1F2) 
 }
 
 .instagram .pricing-card{
-    background : linear-gradient(120deg,#ff8112,#ff7700) 
+    background : linear-gradient(120deg,#dd2a7b,#8134af ) 
+}
+
+.youtube .dh4{
+    margin-top:2em;
 }
 
 
+#insta-gain-follower-accordion{
+    margin-bottom:5em;
+}
 
 .pricing-card h5{
     text-transform: uppercase;

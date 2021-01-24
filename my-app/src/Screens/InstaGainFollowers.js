@@ -47,7 +47,7 @@ let data = [
 
 let data1 = [
     {
-        title : 'package 1',price : '5.00', type : 'instagram',
+        title : 'package 1',price : '150.00', type : 'instagram',
         lists : [
             '50K Instagram followers',
             'Delivery Time After Order Starts'
@@ -55,7 +55,7 @@ let data1 = [
         url : '#'
     },
     {
-        title : 'package 2',price : '12.00', type : 'instagram',
+        title : 'package 2',price : '300.00', type : 'instagram',
         lists : [
             '100K Instagram followers',
             'Delivery Time After Order Starts'
@@ -63,7 +63,7 @@ let data1 = [
         url : '#'
     },
     {
-        title : 'package 3',price : '20.00', type : 'instagram',
+        title : 'package 3',price : '500.00', type : 'instagram',
         lists : [
             '250K Instagram followers',
             'Delivery Time After Order Starts'
@@ -71,7 +71,7 @@ let data1 = [
         url : '#'
     },
     {
-        title : 'package 4',price : '40.00', type : 'instagram',
+        title : 'package 4',price : '1000.00', type : 'instagram',
         lists : [
             '500K Instagram followers',
             'Delivery Time After Order Starts'
@@ -79,7 +79,7 @@ let data1 = [
         url : '#'
     },
     {
-        title : 'package 5',price : '90.00', type : 'instagram',
+        title : 'package 5',price : '1500.00', type : 'instagram',
         lists : [
             '1 Million Instagram followers',
             'Delivery Time After Order Starts'
@@ -119,7 +119,7 @@ class InstaGainFollowers extends React.Component{
                                     <div className="card-header">
                                         <a className="card-link" data-toggle="collapse" href="#ins_1">Cross promotion with the help of dedicated hastags</a>
                                     </div>
-                                    <div id="ins_1" className="collapse show" data-parent="#accordion">
+                                    <div id="ins_1" className="collapse show" data-parent="#insta-gain-follower-accordion">
                                         <div className="card-body">
                                             <p>In social media, it is always beneficial to create hastags and promote it elsewhere. So, how you can make it popular? To achieve the goal of promoting hastags, you can use other offline channels as well. Print advertisement and signage can be created with the same hastags also. In this way, your brand may become synonymous with the particular hastags.</p>
                                         </div>
@@ -130,7 +130,7 @@ class InstaGainFollowers extends React.Component{
                                     <div className="card-header">
                                         <a className="card-link" data-toggle="collapse" href="#ins_2">Look for creative hastags</a>
                                     </div>
-                                    <div id="ins_2" className="collapse" data-parent="#accordion">
+                                    <div id="ins_2" className="collapse" data-parent="#insta-gain-follower-accordion">
                                         <div className="card-body">
                                             <p>Caption ideas use with the picture post must be creative and innovative. It is better to think of more than just one word when it comes to hastags. Obvious hastags must be avoided. If you wish to use common hastags then it must be mixed in order to identify your brand even from a distance. Instead trying boring and mundane stuff, you can use funny and ironic intonation for the hastags.</p>
                                         </div>
@@ -141,7 +141,7 @@ class InstaGainFollowers extends React.Component{
                                     <div className="card-header">
                                         <a className="card-link" data-toggle="collapse" href="#ins_3">Participate in a trendy conversation</a>
                                     </div>
-                                    <div id="ins_3" className="collapse" data-parent="#accordion">
+                                    <div id="ins_3" className="collapse" data-parent="#insta-gain-follower-accordion">
                                         <div className="card-body">
                                             <p>In case of daily post, relevant hastags can be utilized that is very topical at the given time. In case of Carpentry Company, #woodworking is pretty effective. However, specific hastags must be a long tail keyword. In this way, you can be found by the right people easily. Hastags that is universally trending can be useful sometime also such as #instagood or #fun may help you at times also. Both types are required in order to make a mark within Instagram and create some noise for your brand.</p>
                                         </div>
@@ -152,7 +152,7 @@ class InstaGainFollowers extends React.Component{
                                     <div className="card-header">
                                         <a className="card-link" data-toggle="collapse" href="#ins_4">Use the bio URL as much as possible</a>
                                     </div>
-                                    <div id="ins_4" className="collapse" data-parent="#accordion">
+                                    <div id="ins_4" className="collapse" data-parent="#insta-gain-follower-accordion">
                                         <div className="card-body">
                                             <p>If you have an Instagram profile for a real estate company then do you want to use your home website only? Instead, you can change the URL on regular basis to get the attention of your follower. It is better to change the URL twice a week for effective result. Some clickable links can be posted also to drive more traffic to new features within your content.</p>
                                         </div>
@@ -163,7 +163,7 @@ class InstaGainFollowers extends React.Component{
                                     <div className="card-header">
                                         <a className="card-link" data-toggle="collapse" href="#ins_5">Have a descriptive caption</a>
                                     </div>
-                                    <div id="ins_5" className="collapse" data-parent="#accordion">
+                                    <div id="ins_5" className="collapse" data-parent="#insta-gain-follower-accordion">
                                         <div className="card-body">
                                             <p>Through a picture, lots of things can be said at once. So, story can be created through your Instagram pictures also. By using descriptive caption, you can string a story for yourself and your brand quite easily. It is certainly a great way to get more followers. Strategy can be utilized over a period of time. In the beginning, you may feel weird while writing these captions. However, skills can be developed over a period of time. Voice for the brand can be developed with the use of method also.</p>
                                         </div>
@@ -174,7 +174,7 @@ class InstaGainFollowers extends React.Component{
                                     <div className="card-header">
                                         <a className="card-link" data-toggle="collapse" href="#ins_6">Go for influencer marketing</a>
                                     </div>
-                                    <div id="ins_6" className="collapse" data-parent="#accordion">
+                                    <div id="ins_6" className="collapse" data-parent="#insta-gain-follower-accordion">
                                         <div className="card-body">
                                             <p>By visiting different kinds of profiles, you can choose a perfect influencer for your brand. During this time, you can “Turn On Post Notifications” in order to be notified about their new content upload within the platform. Through regular interaction with these influencers, you may able turn them in to your brand spokesperson.</p>
                                         </div>
@@ -185,7 +185,7 @@ class InstaGainFollowers extends React.Component{
                                     <div className="card-header">
                                         <a className="card-link" data-toggle="collapse" href="#ins_7">Get rid of useless tagged pictures</a>
                                     </div>
-                                    <div id="ins_7" className="collapse" data-parent="#accordion">
+                                    <div id="ins_7" className="collapse" data-parent="#insta-gain-follower-accordion">
                                         <div className="card-body">
                                             <p>Content generated by the user can be used for the advantage of your brand. However, tagged pictures cannot be removed completely sometime. Through an ‘Edit Tags’ option you can eliminate unwanted things. It is better to go with the ‘Hide from the profile’ option here. By using these tips, you can manage to earn more followers at the same time.</p>
                                         </div>
@@ -196,7 +196,7 @@ class InstaGainFollowers extends React.Component{
                                     <div className="card-header">
                                         <a className="card-link" data-toggle="collapse" href="#ins_8">Photo tag must be approved before showcasing it on the profile</a>
                                     </div>
-                                    <div id="ins_8" className="collapse" data-parent="#accordion">
+                                    <div id="ins_8" className="collapse" data-parent="#insta-gain-follower-accordion">
                                         <div className="card-body">
                                             <p>Control of the Instagram profile must be retained at every given occasion. Setting of the profile must be done in a way that tagged picture will not be shown in your profile without your consent. For this you have to select ‘photos of you’ along with ‘add manually option’ from the category of ‘Option’. Embarrassing situation can be avoided easily by using this method.</p>
                                         </div>
@@ -207,7 +207,7 @@ class InstaGainFollowers extends React.Component{
                                     <div className="card-header">
                                         <a className="card-link" data-toggle="collapse" href="#ins_9">Have your own Instagram Style</a>
                                     </div>
-                                    <div id="ins_9" className="collapse" data-parent="#accordion">
+                                    <div id="ins_9" className="collapse" data-parent="#insta-gain-follower-accordion">
                                         <div className="card-body">
                                             <p>Every human being likes to fit in within their surrounding and society at large. However, you have to come across unique in order to attract the followers on Instagram. For this, you can develop a style of visual content that is exclusive and attractive. As a result, your brand can be recognized easily. So, user may click on your profile every time as they see new post in their newsfeed.</p>
                                         </div>
@@ -218,7 +218,7 @@ class InstaGainFollowers extends React.Component{
                                     <div className="card-header">
                                         <a className="card-link" data-toggle="collapse" href="#ins_10">Locally identified</a>
                                     </div>
-                                    <div id="ins_10" className="collapse" data-parent="#accordion">
+                                    <div id="ins_10" className="collapse" data-parent="#insta-gain-follower-accordion">
                                         <div className="card-body">
                                             <p>In order to get acquainted with the followers, you must know about particular locations or neighborhood. It can be done easily through the search page of Google. Places Tab may be effective at times. Geotagged posts for that location can be checked for better idea also.</p>
                                         </div>
@@ -229,7 +229,7 @@ class InstaGainFollowers extends React.Component{
                                     <div className="card-header">
                                         <a className="card-link" data-toggle="collapse" href="#ins_11">Call to Action</a>
                                     </div>
-                                    <div id="ins_11" className="collapse" data-parent="#accordion">
+                                    <div id="ins_11" className="collapse" data-parent="#insta-gain-follower-accordion">
                                         <div className="card-body">
                                             <p>Instagram is a conversation based platform instead of broadcasting. So, what you want your followers to do? In case, you are not sure then assistance can be taken from the experts within the field. Through cleverly call to action process; you can share your content with more number of people. It can be made viral also.</p>
                                         </div>

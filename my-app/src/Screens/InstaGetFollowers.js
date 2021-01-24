@@ -47,7 +47,7 @@ let data = [
 
 let data1 = [
     {
-        title : 'package 1',price : '5.00', type : 'instagram',
+        title : 'package 1',price : '150.00', type : 'instagram',
         lists : [
             '50K Instagram followers',
             'Delivery Time After Order Starts'
@@ -55,7 +55,7 @@ let data1 = [
         url : '#'
     },
     {
-        title : 'package 2',price : '12.00', type : 'instagram',
+        title : 'package 2',price : '300.00', type : 'instagram',
         lists : [
             '100K Instagram followers',
             'Delivery Time After Order Starts'
@@ -63,7 +63,7 @@ let data1 = [
         url : '#'
     },
     {
-        title : 'package 3',price : '20.00', type : 'instagram',
+        title : 'package 3',price : '500.00', type : 'instagram',
         lists : [
             '250K Instagram followers',
             'Delivery Time After Order Starts'
@@ -71,7 +71,7 @@ let data1 = [
         url : '#'
     },
     {
-        title : 'package 4',price : '40.00', type : 'instagram',
+        title : 'package 4',price : '1000.00', type : 'instagram',
         lists : [
             '500K Instagram followers',
             'Delivery Time After Order Starts'
@@ -79,7 +79,7 @@ let data1 = [
         url : '#'
     },
     {
-        title : 'package 5',price : '90.00', type : 'instagram',
+        title : 'package 5',price : '1500.00', type : 'instagram',
         lists : [
             '1 Million Instagram followers',
             'Delivery Time After Order Starts'

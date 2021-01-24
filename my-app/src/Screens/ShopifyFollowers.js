@@ -89,7 +89,7 @@ class ShopifyFollowers extends React.Component{
                     <div className="row">
                         <div className="col-12">
                             <h4 className="my-subheading dh4">buy from us</h4>
-                            <h2 className="my-heading dh2"><span className="my-red">soundcloud</span> followers</h2>
+                            <h2 className="my-heading dh2"><span className="my-red">spotify</span> followers</h2>
                         </div>
                     </div>
 
@@ -100,7 +100,7 @@ class ShopifyFollowers extends React.Component{
                     <div className="row">
                         <div className="col-12">
                             <h4 className="my-subheading dh4">buy from us</h4>
-                            <h2 className="my-heading dh2">more  <span className="my-red"> soundcloud</span> packs</h2>
+                            <h2 className="my-heading dh2">more  <span className="my-red"> spotify</span> packs</h2>
                         </div>
                     </div>
 
