@@ -51,7 +51,7 @@ let data = [
 class FacebookFollowers extends React.Component{
     render(){
         return(
-            <div className="shopify-followers pd44">
+            <div className=" facebook pd44">
                 <div className="container">
                     
                     <div className="row">

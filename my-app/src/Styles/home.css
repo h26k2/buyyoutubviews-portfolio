@@ -575,6 +575,33 @@ footer > span{
     color:#fff;
 }
 
+
+.youtube .pricing-card{
+    background : linear-gradient(120deg,#e83325,#ff3728);
+}
+
+.soundcloud .pricing-card{
+    background : linear-gradient(120deg,#ff8112,#ff7700) 
+}
+
+.spotify .pricing-card{
+    background : linear-gradient(120deg,#ff8112,#ff7700) 
+}
+
+.facebook .pricing-card{
+    background : linear-gradient(120deg,#ff8112,#ff7700) 
+}
+
+.twitter .pricing-card{
+    background : linear-gradient(120deg,#ff8112,#ff7700) 
+}
+
+.instagram .pricing-card{
+    background : linear-gradient(120deg,#ff8112,#ff7700) 
+}
+
+
+
 .pricing-card h5{
     text-transform: uppercase;
     font-size:12px;

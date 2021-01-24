@@ -29,6 +29,20 @@ import InstaGainFollowers from '../Screens/InstaGainFollowers'
 import InstaGetFollowers from '../Screens/InstaGetFollowers'
 import InstaGetMoreFollowers from '../Screens/InstaGetMoreFollowers'
 import InstaTVViews from '../Screens/InstaTVViews'
+import YoutubeViews from '../Screens/YoutubeViews'
+import YoutubeViewsLikes from '../Screens/YoutubeViewsLikes'
+import YoutubeLikes from '../Screens/YoutubeLikes'
+import YoutubeSubscribers from '../Screens/YoutubeSubscribers'
+import YoutubeComments from '../Screens/YoutubeComments'
+import YoutubeHighRetention from '../Screens/YoutubeHighRetention'
+import YoutubeCountryTargetedViews from '../Screens/YoutubeCountryTargetedViews'
+import YoutubeLiveStreamViews from '../Screens/YoutubeLiveStreamViews'
+import YoutubeViewsSubscribers from '../Screens/YoutubeViewsSubscribers'
+import YoutubeViewsComments from '../Screens/YoutubeViewsComments'
+import YoutubeViewsLikesComments from '../Screens/YoutubeViewsLikesComments'
+import YoutubeViewsLikesSubscribers from '../Screens/YoutubeViewsLikesSubscribers'
+import YoutubePremiumViews from '../Screens/YoutubePremiumViews'
+import YoutubeCheapViews from '../Screens/YoutubeCheapViews'
 
 class Routes extends React.Component{
     render(){
@@ -70,6 +84,21 @@ class Routes extends React.Component{
                     <Route path="/how-to-get-more-followers-on-instagram" component={InstaGetMoreFollowers}/>
                     <Route path="/buy-instagram-tv-views" component={InstaTVViews}/>
 
+                    <Route path="/buy-youtube-views" component={YoutubeViews}/>
+                    <Route path="/buy-youtube-views-likes" component={YoutubeViewsLikes}/>
+                    <Route path="/youtube-likes" component={YoutubeLikes}/>
+                    <Route path="/youtube-subscribers" component={YoutubeSubscribers}/>
+                    <Route path="/youtube-comments" component={YoutubeComments}/>
+                    <Route path="/youtube-high-retention" component={YoutubeHighRetention}/>
+                    <Route path="/country-targeted-youtube-views" component={YoutubeCountryTargetedViews}/>
+                    <Route path="/buy-youtube-live-stream-views" component={YoutubeLiveStreamViews}/>
+                    <Route path="/buy-youtube-views-subscribers" component={YoutubeViewsSubscribers}/>
+                    <Route path="/buy-youtube-views-comments" component={YoutubeViewsComments}/>
+                    <Route path="/buy-youtube-views-likes-comments" component={YoutubeViewsLikesComments}/>
+                    <Route path="/buy-youtube-views-likes-subscribers" component={YoutubeViewsLikesSubscribers}/>
+                    <Route path="/buy-premium-views" component={YoutubePremiumViews}/>
+                    <Route path="/buy-youtube-cheap-views" component={YoutubeCheapViews}/>
+                    
 
                 </Switch>
                 <Footer/>

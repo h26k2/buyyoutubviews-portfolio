@@ -48,7 +48,7 @@ let data = [
 class InstagramComments extends React.Component{
     render(){
         return(
-            <div className="shopify-followers pd44">
+            <div className="instagram pd44">
                 <div className="container">
                     
                     <div className="row">

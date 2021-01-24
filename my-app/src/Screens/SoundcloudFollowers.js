@@ -69,7 +69,7 @@ let data1 = [
 class SoundcloudFollowers extends React.Component{
     render(){
         return(
-            <div className="shopify-followers pd44">
+            <div className=" pd44 soundcloud">
                 <div className="container">
                     <div className="row">
                         <div className="col-12">
