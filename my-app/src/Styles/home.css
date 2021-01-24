@@ -689,9 +689,6 @@ footer > span{
         padding-left:0em!important;
         padding-right:0em!important;
     }
-    body{
-        background:teal;
-    }
 }
 
 .owl-nav.disabled , .owl-dots.disabled{
