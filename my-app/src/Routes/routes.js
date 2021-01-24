@@ -21,6 +21,14 @@ import FacebookFollowers from '../Screens/FacebookFollowers'
 import FacebookPhotoLikes from '../Screens/FacebookPhotoLikes'
 import FacebookViews from '../Screens/FacebookViews'
 import FacebookComments from '../Screens/FacebookComments'
+import InstagramFollowers from '../Screens/InstagramFollowers'
+import InstagramLikes from '../Screens/InstagramLikes'
+import InstagramViews from '../Screens/InstagramViews'
+import InstagramComments from '../Screens/InstagramComments'
+import InstaGainFollowers from '../Screens/InstaGainFollowers'
+import InstaGetFollowers from '../Screens/InstaGetFollowers'
+import InstaGetMoreFollowers from '../Screens/InstaGetMoreFollowers'
+import InstaTVViews from '../Screens/InstaTVViews'
 
 class Routes extends React.Component{
     render(){
@@ -52,6 +60,15 @@ class Routes extends React.Component{
                     <Route path="/buy-facebook-video-views" component={FacebookViews}/>
                     <Route path="/buy-facebook-comments" component={FacebookComments}/>
 
+
+                    <Route path="/instagram-followers" component={InstagramFollowers}/>
+                    <Route path="/instagram-likes" component={InstagramLikes}/>
+                    <Route path="/instagram-views" component={InstagramViews}/>
+                    <Route path="/instagram-comments" component={InstagramComments}/>
+                    <Route path="/how-to-gain-followers-on-instagram" component={InstaGainFollowers}/>
+                    <Route path="/how-to-get-followers-on-instagram" component={InstaGetFollowers}/>
+                    <Route path="/how-to-get-more-followers-on-instagram" component={InstaGetMoreFollowers}/>
+                    <Route path="/buy-instagram-tv-views" component={InstaTVViews}/>
 
 
                 </Switch>
