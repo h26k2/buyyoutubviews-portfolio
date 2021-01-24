@@ -15,7 +15,7 @@ class Footer extends React.Component{
                             <Link to="/"><i className="far fa-paper-plane fa-2x"></i></Link>
                         </div>
                         <div className="col-12">
-                            <p>For any order related issues please email us on ayha9n@gmail.com</p>
+                            <p>For Any Order Related Issues Please Email Us On support@buyyoutubviews.com please</p>
                         </div>
                         <div className="col-12">
                             <h6>copyright 2021 - buyyoutubviews.com - all rights reserved</h6>

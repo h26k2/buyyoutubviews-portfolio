@@ -1,5 +1,6 @@
 import React from 'react'
 import heroImg from '../Images/youtube-hero-image.png'
+import {Link} from 'react-router-dom'
 
 class Heroyt extends React.Component{
     render(){
@@ -32,73 +33,93 @@ class Heroyt extends React.Component{
                     <div className="row ">
                         
                         <div className="col-12 col-md-4 col-lg-3">
-                            <div className="card-1">
-                                <i className="fab fa-youtube fa-4x"></i>
-                                <p>youtube views</p>
-                            </div>
+                            <Link to="/buy-youtube-views">
+                                <div className="card-1">
+                                    <i className="fab fa-youtube fa-4x"></i>
+                                    <p>Youtube Views</p>
+                                </div>
+                            </Link>
                         </div>
 
                         <div className="col-12 col-md-4 col-lg-3">
-                            <div className="card-1">
-                                <i className="far fa-star fa-4x"></i>
-                                <p>Special Packs</p>
-                            </div>
+                            <Link to="/buy-youtube-views-likes">
+                                <div className="card-1">
+                                    <i className="far fa-star fa-4x"></i>
+                                    <p>Special Packs</p>
+                                </div>
+                            </Link>
                         </div>
 
                         <div className="col-12 col-md-4 col-lg-3">
-                            <div className="card-1">
-                                <i className="fab fa-youtube fa-4x"></i>
-                                <p>Youtube Subscribers</p>
-                            </div>
+                            <Link to="/youtube-likes">
+                                <div className="card-1">
+                                    <i className="fab fa-youtube fa-4x"></i>
+                                    <p>Youtube Subscribers</p>
+                                </div>
+                            </Link>
                         </div>
 
                         <div className="col-12 col-md-4 col-lg-3">
+                            <Link to="/youtube-subscribers">
                             <div className="card-1">
                                 <i className="far fa-thumbs-up fa-4x"></i>
                                 <p>Youtube Likes</p>
                             </div>
+                            </Link>
                         </div>
 
                         <div className="col-12 col-md-4 col-lg-3">
-                            <div className="card-1">
-                                <i className="fab fa-youtube fa-4x"></i>
-                                <p>Youtube Comments</p>
-                            </div>
+                            <Link to="/youtube-comments">
+                                <div className="card-1">
+                                    <i className="fab fa-youtube fa-4x"></i>
+                                    <p>Youtube Comments</p>
+                                </div>
+                            </Link>
                         </div>
 
                         <div className="col-12 col-md-4 col-lg-3">
-                            <div className="card-1">
-                                <i className="fab fa-youtube fa-4x"></i>
-                                <p>High Retention Views</p>
-                            </div>
+                            <Link to="/youtube-high-retention">
+                                <div className="card-1">
+                                    <i className="fab fa-youtube fa-4x"></i>
+                                    <p>High Retention Views</p>
+                                </div>
+                            </Link>
                         </div>
 
                         <div className="col-12 col-md-4 col-lg-3">
-                            <div className="card-1">
-                                <i className="fas fa-globe-americas fa-4x"></i>
-                                <p>Country Targeted Views</p>
-                            </div>
+                            <Link to="/country-targeted-youtube-views">
+                                <div className="card-1">
+                                    <i className="fas fa-globe-americas fa-4x"></i>
+                                    <p>Country Targeted Views</p>
+                                </div>
+                            </Link>
                         </div>
 
                         <div className="col-12 col-md-4 col-lg-3">
-                            <div className="card-1">
-                                <i className="fab fa-youtube fa-4x"></i>
-                                <p>USA High Retention</p>
-                            </div>
+                            <Link to="/youtube-high-retention">
+                                <div className="card-1">
+                                    <i className="fab fa-youtube fa-4x"></i>
+                                    <p>USA High Retention</p>
+                                </div>
+                            </Link>
                         </div>
 
                         <div className="col-12 col-md-4 col-lg-3">
-                            <div className="card-1">
-                                <i className="fab fa-youtube fa-4x"></i>
-                                <p>UK High Retention</p>
-                            </div>
+                            <Link to="/youtube-high-retention">
+                                <div className="card-1">
+                                    <i className="fab fa-youtube fa-4x"></i>
+                                    <p>UK High Retention</p>
+                                </div>
+                            </Link>
                         </div>
 
                         <div className="col-12 col-md-4 col-lg-3">
-                            <div className="card-1">
-                                <i className="fab fa-youtube fa-4x"></i>
-                                <p>Youtube Speed Packs</p>
-                            </div>
+                            <Link to="/buy-premium-views">
+                                <div className="card-1">
+                                    <i className="fab fa-youtube fa-4x"></i>
+                                    <p>Youtube Speed Packs</p>
+                                </div>
+                            </Link>
                         </div>
 
 

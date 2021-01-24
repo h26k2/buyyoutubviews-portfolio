@@ -1,6 +1,6 @@
 
 import React from 'react'
-import {Link} from 'react-router-dom'
+//import {Link} from 'react-router-dom'
 
 import pic1 from '../Images/Slider1.jpg'
 
@@ -18,18 +18,18 @@ class Slider extends React.Component{
                 <div className="carousel-inner">
                     <div className="carousel-item active" style={{backgroundImage : `url('${pic1}')`}}>
                         <div className="carousel-caption">
-                            <Link to="/" className="btn">get started</Link>
+                            {/*<Link to="/" className="btn">get started</Link>*/}
                         </div>
                     </div>
                 </div>
 
-                <Link className="carousel-control-prev" to="#demo" data-slide="prev">
+                {/*<Link className="carousel-control-prev" to="#demo" data-slide="prev">
                     <span className="carousel-control-prev-icon"></span>
                 </Link>
 
                 <Link className="carousel-control-prev" to="#demo" data-slide="next">
                     <span className="carousel-control-next-icon"></span>
-                </Link>
+        </Link>*/}
 
 
             </div>
