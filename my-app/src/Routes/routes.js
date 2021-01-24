@@ -82,7 +82,7 @@ class Routes extends React.Component{
                     <Route path="/how-to-gain-followers-on-instagram" component={InstaGainFollowers}/>
                     <Route path="/how-to-get-followers-on-instagram" component={InstaGetFollowers}/>
                     <Route path="/how-to-get-more-followers-on-instagram" component={InstaGetMoreFollowers}/>
-                    <Route path="/buy-instagram-tv-views" component={InstaTVViews}/>
+                    {/*<Route path="/buy-instagram-tv-views" component={InstaTVViews}/>*/}
 
                     <Route path="/buy-youtube-views" component={YoutubeViews}/>
                     <Route path="/buy-youtube-views-likes" component={YoutubeViewsLikes}/>
