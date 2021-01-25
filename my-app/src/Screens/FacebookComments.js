@@ -104,7 +104,9 @@ class FacebookComments extends React.Component{
                     </div>
 
                     <div className="row">
-                        <Pricing data={data}/>
+                        <div className="col-12">
+                            <Pricing data={data}/>
+                        </div>
                     </div>
 
                     <div className="row">
@@ -115,7 +117,9 @@ class FacebookComments extends React.Component{
                     </div>
 
                     <div className="row">
-                        <Pricing data={data1}/>
+                        <div className="col-12">
+                            <Pricing data={data1}/>
+                        </div>
                     </div>
 
                 </div>

@@ -103,7 +103,9 @@ class SoundcloudFollowers extends React.Component{
                     </div>
 
                     <div className="row">
+                    <div className="col-12">
                         <Pricing data={data}/>
+                        </div>
                     </div>
 
                     <div className="row">
@@ -114,7 +116,9 @@ class SoundcloudFollowers extends React.Component{
                     </div>
 
                     <div className="row">
+                    <div className="col-12">
                         <Pricing data={data1}/>
+                        </div>
                     </div>
 
                 </div>

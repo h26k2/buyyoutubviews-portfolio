@@ -88,7 +88,9 @@ class FacebookFollowers extends React.Component{
                     </div>
 
                     <div className="row">
-                        <Pricing data={data}/>
+                        <div className="col-12">
+                            <Pricing data={data}/>
+                            </div>
                     </div>
 
 
