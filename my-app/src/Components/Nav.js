@@ -80,7 +80,7 @@ class Nav extends React.Component{
                             </div>
                         </li>
 
-                        <li className="nav-item dropdown">
+                        <li className="nav-item dropdown dropleft">
                             <Link to="#" className="nav-link dropdown-toggle"  data-toggle="dropdown">spotify</Link>
                             <div className="dropdown-menu">
                                 <Link to ="/buy-spotify-followers" className="dropdown-item">spotify followers</Link>

@@ -189,6 +189,22 @@ body{
     border-bottom:2px solid #ff3728;
 }
 
+.dropleft .dropdown-toggle::before{
+    display: none!important;
+}
+
+
+.dropleft .dropdown-toggle::after{
+    display: inline-block;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent
+}
+
 @media only screen and (max-width:992px){
     .navbar img{
         max-width:125px;
