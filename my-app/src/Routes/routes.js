@@ -43,7 +43,6 @@ import YoutubeViewsLikesComments from '../Screens/YoutubeViewsLikesComments'
 import YoutubeViewsLikesSubscribers from '../Screens/YoutubeViewsLikesSubscribers'
 import YoutubePremiumViews from '../Screens/YoutubePremiumViews'
 import YoutubeCheapViews from '../Screens/YoutubeCheapViews'
-import Zendesk from 'react-zendesk'
 import NotFound from '../Screens/NotFound'
 
 class Routes extends React.Component{
@@ -51,7 +50,6 @@ class Routes extends React.Component{
     render(){
         return(
             <Router>
-                <Zendesk zendeskKey="7707a24f-aae8-49e8-aa7d-e31fce70cbae"  />
                 <Topbar />
                 <Nav />
                 <Slider/>
