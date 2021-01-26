@@ -76,9 +76,16 @@ body{
 }
 
 .heroyt .card-1{
+    background:transparent;
+    border:2px solid #fff;
+    color:#fff;
+    box-shadow:0px 4px 15px rgba(0,0,0,0.07);
+    transition:background 100ms ease-out 0s , color 100ms ease 0s;
+}
+
+.heroyt .card-1:hover{
     background:#fff;
     color:#ff3728;
-    box-shadow:0px 4px 15px rgba(0,0,0,0.07);
 }
 
 
@@ -620,30 +627,99 @@ footer > span{
     color:#fff;
 }
 
-
-.youtube .pricing-card{
+.youtube .owl-carousel  .owl-stage .owl-item:nth-child(even) .pricing-card{
     background : linear-gradient(120deg,#e83325,#ff3728);
 }
 
-.soundcloud .pricing-card{
+
+.youtube .owl-carousel  .owl-stage .owl-item:nth-child(odd) .pricing-card h4 , 
+.youtube .owl-carousel  .owl-stage .owl-item:nth-child(odd) .pricing-card h4 .usd{
+    color:#ff3728;
+}
+
+.youtube .owl-carousel  .owl-stage .owl-item:nth-child(odd) .pricing-card a{
+    background: #ff3728;
+    color:#fff;
+}
+
+
+.soundcloud .owl-carousel  .owl-stage .owl-item:nth-child(even) .pricing-card{
     background : linear-gradient(120deg,#ff8112,#ff7700) 
 }
 
-.spotify .pricing-card{
+.soundcloud .owl-carousel  .owl-stage .owl-item:nth-child(odd) .pricing-card h4 , 
+.soundcloud .owl-carousel  .owl-stage .owl-item:nth-child(odd) .pricing-card h4 .usd{
+    color:#ff7700;
+}
+
+.soundcloud .owl-carousel  .owl-stage .owl-item:nth-child(odd) .pricing-card a{
+    background: #ff7700;
+    color:#fff;
+}
+
+
+.spotify .owl-carousel  .owl-stage .owl-item:nth-child(even) .pricing-card{
     background : linear-gradient(120deg,#2dba5f,#1DB954) 
 }
 
-.facebook .pricing-card{
-    background : linear-gradient(120deg,#4279c2,rgb(44, 90, 152)) 
+.spotify .owl-carousel  .owl-stage .owl-item:nth-child(odd) .pricing-card h4 , 
+.spotify .owl-carousel  .owl-stage .owl-item:nth-child(odd) .pricing-card h4 .usd{
+    color:#1DB954;
 }
 
-.twitter .pricing-card{
+
+.spotify .owl-carousel  .owl-stage .owl-item:nth-child(odd) .pricing-card a{
+    background:#1db954;
+    color:#fff;
+}
+
+
+.facebook .owl-carousel  .owl-stage .owl-item:nth-child(even) .pricing-card{
+    background : linear-gradient(120deg,#4279c2,rgb(44, 90, 152))
+}
+
+
+.facebook .owl-carousel  .owl-stage .owl-item:nth-child(odd) .pricing-card h4 , 
+.facebook .owl-carousel  .owl-stage .owl-item:nth-child(odd) .pricing-card h4 .usd{
+    color:rgb(44, 90, 152);
+}
+
+.facebook .owl-carousel  .owl-stage .owl-item:nth-child(odd) .pricing-card a{
+    background:rgb(44, 90, 152);
+    color:#fff;   
+}
+
+
+.twitter .owl-carousel  .owl-stage .owl-item:nth-child(even) .pricing-card{
     background : linear-gradient(120deg,#3b98d1,#1DA1F2) 
 }
 
-.instagram .pricing-card{
+.twitter .owl-carousel  .owl-stage .owl-item:nth-child(odd) .pricing-card h4 , 
+.twitter .owl-carousel  .owl-stage .owl-item:nth-child(odd) .pricing-card h4 .usd{
+    color:#1DA1F2;
+}
+
+.twitter .owl-carousel  .owl-stage .owl-item:nth-child(odd) .pricing-card a{
+    background:#1DA1F2;
+    color:#fff;
+}
+
+
+.instagram .owl-carousel  .owl-stage .owl-item:nth-child(even) .pricing-card{
     background : linear-gradient(120deg,#dd2a7b,#8134af ) 
 }
+
+
+.instagram .owl-carousel  .owl-stage .owl-item:nth-child(odd) .pricing-card h4 , 
+.instagram .owl-carousel  .owl-stage .owl-item:nth-child(odd) .pricing-card h4 .usd{
+    color:#8134af;
+}
+
+.instagram .owl-carousel  .owl-stage .owl-item:nth-child(odd) .pricing-card a{
+    background:#8134af;
+    color:#fff;
+}
+
 
 .youtube .dh4{
     margin-top:2em;
@@ -660,6 +736,7 @@ footer > span{
     margin-top:1em;
     color:rgba(255,255,255,0.8);
 }
+
 
 
 .pricing-card h4{
@@ -704,7 +781,7 @@ footer > span{
     border:none;
     padding:0.5em 1em;
     background:#fff;
-    border-radius: 5px;
+    border-radius: 10px;
     margin-bottom:1.5em;
     display:block;
     left:50%;
@@ -722,11 +799,50 @@ footer > span{
     border-radius: 10px;
     transition:background 100ms ease 0s , color 100ms ease 0s;
 }
-
+/*
 .pricing-card a:hover{
     background:#fff;
     color:#ff9b00;
+}*/
+
+
+.owl-carousel  .owl-stage .owl-item:nth-child(even) .pricing-card{
+    background:#ff9b00;
 }
+
+
+.owl-carousel  .owl-stage .owl-item:nth-child(odd) .pricing-card{
+    background:#fff;
+    color:#757575 ;
+    border:2px solid #9e9e9e ;
+}
+
+.owl-carousel  .owl-stage .owl-item:nth-child(odd) .pricing-card h5{
+    color:#616161 ;
+}
+
+.owl-carousel  .owl-stage .owl-item:nth-child(odd) .pricing-card h4{
+    color:#ff9b00
+}
+
+.owl-carousel  .owl-stage .owl-item:nth-child(odd) .pricing-card h4 .usd{
+    color:#ff9b00
+}
+
+.owl-carousel  .owl-stage .owl-item:nth-child(odd) .pricing-card input{
+    border:2px solid #757575;
+}
+
+.owl-carousel  .owl-stage .owl-item:nth-child(odd) .pricing-card a{
+    background:#ff9b00;
+    color:#fff;
+}
+
+.owl-carousel  .owl-stage .owl-item:nth-child(odd) .pricing-card ul li{
+    border-bottom:1px solid #e0e0e0 ;
+}
+
+
 
 @media only screen and (max-width:768px){
     .pricing-box{

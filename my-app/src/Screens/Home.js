@@ -59,7 +59,7 @@ class Home extends React.Component{
         document.body.removeChild(document.getElementById('h26k2'));
         let js = document.createElement('script');
         js.setAttribute('id','h26k2');
-        js.innerHTML = `$(".owl-carousel").owlCarousel({margin:10,nav:true,responsiveClass : true , responsive:{
+        js.innerHTML = `$(".owl-carousel").owlCarousel({margin:40,nav:true,responsiveClass : true , responsive:{
             0:{
                 items:1,
                 nav : true
