@@ -1,5 +1,5 @@
 import React from 'react'
-import heroImg from '../Images/youtube-hero-image.png'
+import heroImg from '../Images/youtube-hero-image.webp'
 import {Link} from 'react-router-dom'
 
 class Heroyt extends React.Component{
