@@ -54,7 +54,7 @@ class Routes extends React.Component{
                 <Nav />
                 <Slider/>
                 <Switch>
-                    <Route path="/" exact component={Home} />
+                    <Route path="/" exact={true} component={Home} />
                     <Route path="/faq" component={Faq}/>
                     <Route path="/refunds" component={Refund}/>
                     <Route path="/privacy" component={Privacy} />
