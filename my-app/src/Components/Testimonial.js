@@ -1,5 +1,5 @@
 import React from 'react'
-import quotes from '../Images/quotes.png'
+import quotes from '../Images/quotes.webp'
 
 class Testimonial extends React.Component{
 

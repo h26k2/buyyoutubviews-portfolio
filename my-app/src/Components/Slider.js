@@ -2,7 +2,7 @@
 import React from 'react'
 //import {Link} from 'react-router-dom'
 
-import pic1 from '../Images/Slider1.jpg'
+import pic1 from '../Images/Slider1.webp'
 
 
 class Slider extends React.Component{
